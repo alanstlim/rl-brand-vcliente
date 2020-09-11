@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/nav_g1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_catalog"
+            android:icon="@drawable/ic_catalog"
+            android:title="@string/menu_catalog" />
+    </group>
+
+    <group
+        android:id="@+id/nav_g2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shirt"
+            android:icon="@drawable/ic_shirt"
+            android:title="@string/category_shirt" />
+        <item
+            android:id="@+id/nav_set"
+            android:icon="@drawable/ic_set"
+            android:title="@string/category_set" />
+        <item
+            android:id="@+id/nav_jumpsuit"
+            android:icon="@drawable/ic_jumpsuit"
+            android:title="@string/category_jumpsuit" />
+        <item
+            android:id="@+id/nav_skirt"
+            android:icon="@drawable/ic_skirt"
+            android:title="@string/category_skirt" />
+        <item
+            android:id="@+id/nav_dress"
+            android:icon="@drawable/ic_dress"
+            android:title="@string/category_dress" />
+    </group>
+
+    <group
+        android:id="@+id/nav_g3"
+        android:checkableBehavior="single">
+    </group>
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/ic_contact"
+        android:title="@string/menu_contact" />
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_info"
+        android:title="@string/menu_info" />
+</menu>

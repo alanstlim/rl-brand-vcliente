@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:id="@+id/imageItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/background_img"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_vestidolongo" />
+
+        <ImageView
+            android:id="@+id/imageShare"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/ic_share" />
+
+        <LinearLayout
+            android:id="@+id/linearInfos"
+            android:layout_width="140dp"
+            android:layout_height="185dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/background_white80"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textItemCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kavoon"
+                android:gravity="center"
+                android:text="Categoria"
+                android:textColor="@color/colorOrange"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textItemSubCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jockey_one"
+                android:gravity="center"
+                android:text="SubCategoria"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Tamanhos :" />
+
+            <TextView
+                android:id="@+id/textSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jockey_one"
+                android:gravity="center"
+                android:text="P / M / G"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="Preço :" />
+
+            <TextView
+                android:id="@+id/textPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jockey_one"
+                android:gravity="center"
+                android:text="R$: 50,00"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

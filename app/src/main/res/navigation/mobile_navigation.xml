@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_catalog">
+
+    <fragment
+        android:id="@+id/nav_catalog"
+        android:name="com.example.rlbrand.activity.ui.catalog.CatalogFragment"
+        android:label="@string/menu_catalog"
+        tools:layout="@layout/fragment_catalog" />
+
+    <fragment
+        android:id="@+id/nav_skirt"
+        android:name="com.example.rlbrand.activity.ui.category.SkirtFragment"
+        android:label="@string/category_skirt"
+        tools:layout="@layout/fragment_skirt" />
+    <fragment
+        android:id="@+id/nav_dress"
+        android:name="com.example.rlbrand.activity.ui.category.DressFragment"
+        android:label="@string/category_dress"
+        tools:layout="@layout/fragment_dress" />
+    <fragment
+        android:id="@+id/nav_set"
+        android:name="com.example.rlbrand.activity.ui.category.SetFragment"
+        android:label="@string/category_set"
+        tools:layout="@layout/fragment_skirt" />
+    <fragment
+        android:id="@+id/nav_jumpsuit"
+        android:name="com.example.rlbrand.activity.ui.category.JumpsuitFragment"
+        android:label="@string/category_jumpsuit"
+        tools:layout="@layout/fragment_jumpsuit" />
+    <fragment
+        android:id="@+id/nav_shirt"
+        android:name="com.example.rlbrand.activity.ui.category.ShirtFragment"
+        android:label="@string/category_shirt"
+        tools:layout="@layout/fragment_shirt" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.rlbrand.activity.ui.info.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.rlbrand.activity.ui.info.MoreInfosFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_more_infos" />
+</navigation>

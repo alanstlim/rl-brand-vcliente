@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "540727549500",
+    "firebase_url": "https://rl-brand.firebaseio.com",
+    "project_id": "rl-brand",
+    "storage_bucket": "rl-brand.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540727549500:android:f87332f5adf1ebdd822d39",
+        "android_client_info": {
+          "package_name": "com.example.rlbrand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540727549500-3449ond1q61upqim84df5f2snujcrkpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rlbrand",
+            "certificate_hash": "969ff3512db943f87163f3f0d3049141182f4325"
+          }
+        },
+        {
+          "client_id": "540727549500-lbp6knqmh2mra17q1tga3b897jscivie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfhNrZ8nTPYuFe0lc-KSVItH8O3OnV-Xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540727549500-lbp6knqmh2mra17q1tga3b897jscivie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
