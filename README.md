@@ -9,23 +9,9 @@ A ideia do aplicativo é:
 
 >"Mostrar ao cliente de forma dinâmica o catálogo semanal da loja, permitindo compartilhar as roupas que preferir".
 
-### Portfólio
-
-Este projeto faz parte do meu portfólio pessoal, então, ficarei feliz se você pudesse me fornecer algum feedback sobre o projeto, código, estrutura ou qualquer coisa que você possa relatar que permita-me crescer e melhorar!
-
-Email: alanstlim@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/alanstlim/
-
 ### Observações
 
 > Essa é a versão Cliente, a versão Adm está em construção.
-
-## Instalador
-
-Se você deseja testar diretamente no celular use o apk abaixo:
-
-[RL Brand vCliente.apk](https://drive.google.com/file/d/1zLuZfeIF7epQu2WR6e8dzjVOGbO_RDog/view?usp=sharing)
 
 ## Funcionalidades
 - [x] Catálogo Semanal das peças.
@@ -37,6 +23,22 @@ Se você deseja testar diretamente no celular use o apk abaixo:
 - [ ] Click do catalógo principal
 
 - [ ] Compartilha multiplas peças
+
+### Portfólio
+
+Este projeto faz parte do meu portfólio pessoal, então, ficarei feliz se você pudesse me fornecer algum feedback sobre o projeto, código, estrutura ou qualquer coisa que você possa relatar que permita-me crescer e melhorar!
+
+Email: alanstlim@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/alanstlim/
+
+
+## Instalador
+
+Se você deseja testar diretamente no celular use o apk abaixo:
+
+[RL Brand vCliente.apk](https://drive.google.com/file/d/1zLuZfeIF7epQu2WR6e8dzjVOGbO_RDog/view?usp=sharing)
+
 
 ## Extensões
 
